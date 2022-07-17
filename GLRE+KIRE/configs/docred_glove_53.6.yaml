@@ -1,0 +1,68 @@
+# ablation
+global_rep: true
+local_rep: true
+context_att: true
+
+# network
+encoder: lstm
+dataset: docred
+pretrain_l_m: none  # bert-base, none,xlnet-base, xlnet-large
+plm_dim: 768
+
+emb_method: false # true for load_embeds
+word_dim: 100
+lstm_dim: 256
+hidden_dim: 256
+out_dim: 256
+type_dim: 20
+dist_dim: 20
+bilstm_layers: 1
+rgcn_hidden_dim: 256
+rgcn_num_layers: 2
+gcn_in_drop: 0.2
+gcn_out_drop: 0.0
+drop_i: 0.2
+drop_o: 0.0
+att_head_num: 1
+att_dropout: 0.0
+mlp_layers: 2
+mlp_dim: 512
+
+# train
+batch: 32
+epoch: 400
+lr: 0.0005
+bert_lr: 0.00001
+gc: 1
+reg: 0.000
+opt: adam
+patience: 20
+unk_w_prob: 0.2
+min_w_freq: 1
+init_train_epochs: 20
+NA_NUM: 0.3  # 0.1==5:1
+optimizer: adam
+
+# data based
+train_data: ./prepro_data/DocRED/processed/train_annotated.data
+test_data: ./prepro_data/DocRED/processed/dev.data
+embeds: ./prepro_data/DocRED/glove_300d.txt
+folder: ./results/docred-dev
+save_pred: dev
+
+# options (chosen from parse input otherwise false)
+lowercase: true
+plot: false
+show_class: false
+early_stop: true
+save_model: true
+freeze_words: false
+
+# extra
+seed: 0
+shuffle_data: true
+label2ignore: NA
+primary_metric: micro_f
+direction: l2r+r2l
+gpu: 0
+adaptive_threshlod: false
