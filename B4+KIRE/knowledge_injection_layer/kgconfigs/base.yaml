@@ -1,0 +1,6 @@
+gcn_layer_nums: 0  # 加入结构化信息
+onlywc: true
+hidden_dim: 100
+kg_align_loss: False
+add_kg_flag: False
+train_method: one_step
