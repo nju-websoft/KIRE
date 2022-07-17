@@ -1,8 +1,6 @@
 # KIRE
-Source code and datasets for KIRE.
+Enhancing Document-level Relation Extraction by Entity Knowledge Injection, ISWC 2022
 
-## Dataset
-We used two datasets, namely DocRED and DWIE.
 
 ## Models
 Source code for KIRE models based on four [baselines](https://github.com/thunlp/DocRED), [GLRE](https://github.com/nju-websoft/GLRE),  [SSAN](https://github.com/BenfengXu/SSAN) and [ATLOP](https://github.com/wzhouad/ATLOP)  are saved in "./B4+KIRE",  "./GLRE+KIRE", "./SSAN+KIRE"  and "./ATLOP+KIRE" respectively.
