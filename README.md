@@ -140,7 +140,7 @@ KIRE chooses 3 basic knowledge injection models as competitors. The citation for
 ## Datasets
 
 KIRE selects two benchmark document-level relation extraction datasets: [DocRED](https://github.com/thunlp/DocRED) and [DWIE](https://github.com/klimzaporojets/DWIE).
-The statistical data is listed in the following table.
+The statistical data is listed in the following tables.
 
 ### DocRED dataset
 | Datasets | Documents | Relation types | Instances |N/A Instances|
