@@ -8,19 +8,19 @@
 
 ## Table of contents
 
-1. [Introduction of KIRE](#introduction-of-KIRE-)
+1. [Introduction of KIRE](#introduction-of-KIRE)
    1. [Overview](#overview)
    2. [Package Description](#package-description)
-2. [Getting Started](#getting-started-)
+2. [Getting Started](#getting-started)
    1. [Dependencies](#dependencies)
-   2. [Downloads](#downloads-)
-   3. [Usage](#usage-)
+   2. [Downloads](#downloads)
+   3. [Usage](#usage)
 3. [Models](#models)
    1. [Document-level RE models](#re-models)
    2. [Knowledge injection models](#ki-models)
-4. [Datasets](#datasets-)
+4. [Datasets](#datasets)
    1. [DocRED dataset](#docred-dataset)
-   2. [DWIE dataset](#dwie-models)
+   2. [DWIE dataset](#dwie-dataset)
 5. [License](#license)
 6. [Citation](#citation)
 
