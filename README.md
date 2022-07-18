@@ -142,14 +142,14 @@ KIRE selects two benchmark document-level relation extraction datasets: [DocRED]
 The statistical data is listed in the following tables.
 
 ### DocRED dataset
-| Datasets | Documents | Relation types | Instances |N/A Instances|
+| Datasets | Documents | Relation types | Instances |N/A instances|
 |:-----:|:------------:|:---------:|:--------:|:--------:|
 |        Training        |    3,053     |     96      |  38,269  |  1,163,035  |
 |        Validation        |    1,000     |     96     |  12,332  |  385,263  |
 |        Test        |    1,000     |     96      |  12,842  |  379,316  |
 
 ### DWIE dataset
-| Datasets | Documents | Relation types | Instances |N/A Instances|
+| Datasets | Documents | Relation types | Instances |N/A instances|
 |:-----:|:------------:|:---------:|:--------:|:--------:|
 |        Training        |    544     |     66      |  13,524  |  492,057  |
 |        Validation        |    137     |     66      |  3,488  |  121,750  |
