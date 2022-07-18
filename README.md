@@ -29,7 +29,7 @@
 
 We use  [Python](https://www.python.org/) and [PyTorch](https://pytorch.org/) to develop the basic framework of **KIRE**.  The framework architecture is illustrated in the following Figure. 
 
-![image-20220507103409697](https://github.com/nju-websoft/KIRE/blob/main/figs/model.pdf)
+![image](https://github.com/nju-websoft/KIRE/blob/main/figs/model.png)
 
 
 ### 	Package Description
