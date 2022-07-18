@@ -6,7 +6,7 @@
 
 > Document-level relation extraction (RE) aims to identify the relations between entities throughout an entire document. It needs complex reasoning skills to synthesize various knowledge such as coreferences and commonsense. Large-scale knowledge graphs (KGs) contain a wealth of real-world facts, and can provide valuable knowledge to document-level RE. In this paper, we propose an entity knowledge injection framework to enhance current document-level RE models. Specifically, we introduce coreference distillation to inject coreference knowledge, endowing an RE model with the more general capability of coreference reasoning. We also employ representation reconciliation to inject factual knowledge and aggregate KG representations and document representations into a unified space. The experiments on two benchmark datasets validate the generalization of our entity knowledge injection framework and the consistent improvement to several document-level RE models.
 
-## Table of contents
+## Table of contents📑
 
 1. [Introduction of KIRE](#introduction-of-KIRE)
    1. [Overview](#overview)
@@ -24,46 +24,45 @@
 5. [License](#license)
 6. [Citation](#citation)
 
-## Introduction of KIRE
+## Introduction of KIRE🎖️
 ### Overview
 
 We use  [Python](https://www.python.org/) and [PyTorch](https://pytorch.org/) to develop the basic framework of **KIRE**.  The framework architecture is illustrated in the following Figure. 
 
 ![image](https://github.com/nju-websoft/KIRE/blob/main/figs/model.png)
 
-
 ### 	Package Description
 
-```
+```python
 KIRE/
 ├── B4+KIRE/
-│   ├── configs/: the code for running the model
-│   ├── checkpoints/: store the model after train
-│   ├── prepro_data/: the preprocessed data
-│   ├── model/: the models include CNN, LSTM, BiLSTM, Context-aware
-│   ├── knowledge_injection_layer/: the knowledge injection module
-│   ├── scripts/: different code files corresponding to the sh files in the home directory
+│   ├── configs/  # the code for running the model
+│   ├── checkpoints/  # store the model after train
+│   ├── prepro_data/  # the preprocessed data
+│   ├── model/  # the models include CNN, LSTM, BiLSTM, Context-aware
+│   ├── knowledge_injection_layer/  # the knowledge injection module
+│   ├── scripts/  # different code files corresponding to the sh files in the home directory
 ├── GLRE+KIRE/
-│   ├── configs/: different configs used for experiments
-│   ├── data/: datasets and corresponding data loading code
-│   ├── data_processing/: the preprocess code for datasets
-│   ├── knowledge_injection_layer/: the knowledge injection module
-│   ├── scripts/: different code files corresponding to the sh files in the home directory
+│   ├── configs/  # different configs used for experiments
+│   ├── data/  # datasets and corresponding data loading code
+│   ├── data_processing/  # the preprocess code for datasets
+│   ├── knowledge_injection_layer/  # the knowledge injection module
+│   ├── scripts/  #  different code files corresponding to the sh files in the home directory
 │   ├── other directories contain source code of GLRE model
 ├── SSAN+KIRE/
-│   ├── data/: datasets and corresponding generate code
-│   ├── checkpoints/: store the model after train
-│   ├── pretrained_lm/: store the pretrained model
-│   ├── knowledge_injection_layer/: the knowledge injection module
+│   ├── data/  # datasets and corresponding generate code
+│   ├── checkpoints/  # store the model after train
+│   ├── pretrained_lm/  # store the pretrained model
+│   ├── knowledge_injection_layer/  # the knowledge injection module
 │   ├── other directories or files contain source code of SSAN model
 ├── ATLOP+KIRE/
-│   ├── data/: datasets and corresponding generate code
-│   ├── knowledge_injection_layer/: the knowledge injection module
-│   ├── scripts/: different sh files used for experiments under different settings
+│   ├── data/  # datasets and corresponding generate code
+│   ├── knowledge_injection_layer/  # the knowledge injection module
+│   ├── scripts/  # different sh files used for experiments under different settings
 │   ├── other directories or files contain source code of ATLOP model
 ```
 
-## Getting Started
+## Getting Started✈️
 
 ### Dependencies
 
@@ -112,7 +111,7 @@ The scripts to run other basic models with the KIRE framework can be found in th
 
 
 
-## Models
+## Models🤖
 
 ### Document-level RE models
 KIRE utilizes 7 basic document-level relation extraction models. The citation for each models corresponds to either the paper describing the model.
@@ -137,7 +136,7 @@ KIRE chooses 3 basic knowledge injection models as competitors. The citation for
 | KB-graph   |  [Verlinden *et al.*, 2021](https://arxiv.org/abs/2107.02286) |
 
 
-## Datasets
+## Datasets🗂️
 
 KIRE selects two benchmark document-level relation extraction datasets: [DocRED](https://github.com/thunlp/DocRED) and [DWIE](https://github.com/klimzaporojets/DWIE).
 The statistical data is listed in the following tables.
@@ -161,7 +160,7 @@ The statistical data is listed in the following tables.
 
 This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details
 
-## Citation
+## Citation🚩
 
 ```
 @inproceedings{KIRE,
