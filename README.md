@@ -60,7 +60,7 @@ KIRE/
 │   ├── data/: datasets and corresponding generate code
 │   ├── knowledge_injection_layer/: the knowledge injection module
 │   ├── scripts/: different sh files used for experiments under different settings
-│   ├── other directories or files contain source code of SSAN model
+│   ├── other directories or files contain source code of ATLOP model
 ```
 
 ## Getting Started
