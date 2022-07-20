@@ -122,11 +122,11 @@ The following table shows the used hyperparameter values in the experiments.
 | Dimension of hidden layers in MLP   | 256 |
 | Dimension of GloVe and Skip-gram   | 100 |
 | Dimension of hidden layers in AutoEncoder   |  50 |
-| Dimension, kernel size and stride of CNN_{1D}    |  100,3,1 |
+| Dimension, kernel size and stride of CNN<sub>1D</sub>    |  100,3,1 |
 | Number of R-GAT layers and heads   | 3, 2 |
 | Number of aggregators   | 2 |
 | Dimension of hidden layers in aggregation  | 768 |
-| 𝛼1, 𝛼2, 𝛼3    | 1, 0.01, 0.01 |
+| 𝛼<sub>1</sub>, 𝛼<sub>2</sub>, 𝛼<sub>3</sub>    | 1, 0.01, 0.01 |
 
 ## Models🤖
 
