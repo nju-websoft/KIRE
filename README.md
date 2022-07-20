@@ -109,7 +109,24 @@ Train the ATLOP and KIRE + ATLOP model on DWIE with the following command:
 
 The scripts to run other basic models with the KIRE framework can be found in their corresponding directories.
 
+The following table shows the used hyperparameter values in the experiments.
 
+| Hyperparameter    | Values                                                                                                                |
+| -------- |-------------------------------------------------------------------------------------------------------------------------|
+| Batch size   | 4 |
+| Learning rate   |  0.0005 |
+| Gradient clipping   |  10 |
+| Early stop patience   | 10 |
+| Regularization   | 0.0001 |
+| Dropout ratio  | 0.2 or 0.5 |
+| Dimension of hidden layers in MLP   | 256 |
+| Dimension of GloVe and Skip-gram   | 100 |
+| Dimension of hidden layers in AutoEncoder   |  50 |
+| Dimension, kernel size and stride of CNN_{1D}    |  100,3,1 |
+| Number of R-GAT layers and heads   | 3, 2 |
+| Number of aggregators   | 2 |
+| Dimension of hidden layers in aggregation  | 768 |
+| 𝛼1, 𝛼2, 𝛼3    | 1, 0.01, 0.01 |
 
 ## Models🤖
 
